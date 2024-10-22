@@ -1,0 +1,10 @@
+text,label
+"This product is amazing!",Positive
+"I had a terrible experience.",Negative
+"The service was okay, but it could be better.",Neutral
+"I love this feature!",Positive
+"This is the worst purchase I've made.",Negative
+"나는 책보는 것을 좋아한다.",Positive
+"일하고 있다",Neutral
+"잠을 잔다",Neutral
+"모델링이 잘되고 있다",Positive
