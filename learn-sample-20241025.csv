@@ -1,0 +1,5 @@
+﻿Instruction,Input,Response
+"Determine whether the given macro follows the defined BNF structure: '<select> ::= <name> ""<"" <table_list> "">"" ""^"" ""s"" | ""S"" [ ""P"" | ""N"" ] [ ""F"" | ""W"" ]'",getBookTaDetail  ^s,Ok
+"Determine whether the given mcro foloows 소 defined BNF structure: '<select> ::= <name> ""<"" <name> "">"" ""^"" ""s"" | ""S"" [ ""P"" | ""N"" ] [ ""F"" | ""W"" ]'",getBookTaDetail  ^P,Error 100
+"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",getBookTaDetail,Ok
+"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",1getBookTaDetail,Error 001
