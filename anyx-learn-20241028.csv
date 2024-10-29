@@ -1,6 +1,16 @@
 ﻿Instruction,Input,Response,Text
-"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",getBookTaDetail,Ok 0000 : name,"Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *' ### Response: Ok 0000 : name"
-"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",1getBookTaDetail,Error 0001 : Syntax Error - 명칭은 숫자가 아닌 영문으로 시작하여야 합니다.,"Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *' ### Response: Error 0001 : Syntax Error - 명칭은 숫자가 아닌 영문으로 시작하여야 합니다."
+"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",getBookTaDetail,"Parsing Structure: 
+ - getBookTaDetail  : name
+Validity: Ok 0000","Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *' ### Response: Parsing Structure: 
+ - getBookTaDetail  : name
+Validity: Ok 0000"
+"Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",1getBookTaDetail,"Parsing Structure:
+ - 1getBookTaDetail
+ : Syntax Error - 명칭은 숫자가 아닌 영문으로 시작하여야 합니다.
+Error 0001","Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *' ### Response: Parsing Structure:
+ - 1getBookTaDetail
+ : Syntax Error - 명칭은 숫자가 아닌 영문으로 시작하여야 합니다.
+Error 0001"
 "Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *'",.getBookTaDetail,Error 0002 : Syntax Error - 명칭은 특수문자가 아닌 영문으로 시작하여야 합니다.,"Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given name foloows the defined BNF structure: '<name> ::= [ a-zA-Z ] [ a-zA-Z0-9 | [""."" <name>] ] *' ### Response: Error 0002 : Syntax Error - 명칭은 특수문자가 아닌 영문으로 시작하여야 합니다."
 "Determine whether the given macro follows the defined BNF structure: '<name_list> ::= <name> [ "","" <name> ]'","listName1, listName2",Ok 0000 : name list,"Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given macro follows the defined BNF structure: '<name_list> ::= <name> [ "","" <name> ]' ### Response: Ok 0000 : name list"
 "Determine whether the given macro follows the defined BNF structure: '<name_list> ::= <name> [ "","" <name> ]'","listName1, listName2,",Ok 0000 : name list,"Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Determine whether the given macro follows the defined BNF structure: '<name_list> ::= <name> [ "","" <name> ]' ### Response: Ok 0000 : name list"
